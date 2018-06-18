@@ -22,7 +22,7 @@ Paste Json Format Example
 
 API Endpoints 
 | Endpoint     | Method |  Function           | 
-| ------------- | --- | :-------------:|
+| ------------- | --------------- | :-------------:|
 | /api/v1/pastes/recent | GET | View the last 5 pastes created. Returnas an array of Pastes |
 | /api/v1/pastes/ | POST | Creates a new paste. Requires a paste JSON file with content |
 | /api/v1/pastes/:id | GET | Retrieves a paste with the specified id. Returns a paste JSON object |
